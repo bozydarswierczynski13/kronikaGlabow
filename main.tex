@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper,twoside]{extreport}
+%\documentclass[12pt,a4paper,oneside]{extreport}
+
+\usepackage[textwidth=17cm,textheight=25cm,left=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[MeX]{polski}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+%\usepackage{fancyvrb} 
+%\usepackage{listings}
+\usepackage{setspace}
+%\usepackage{defin} 
+\usepackage{rotating}
+\usepackage{textcomp}
+
+
+\title {Kronika rodziny Głąbów}
+\author {Czesław Świerczyński}
+\date {czerwiec 2015}
+
+%---------------------------------------------------------
+\begin {document}
+
+\renewcommand{\figurename}{Ilustracja}
+\renewcommand{\listfigurename}{Spis ilustracji}
+
+%------- strona tytuowa ---------
+%\onehalfspacing
+\doublespacing
+\maketitle
+%\thispagestyle{empty}
+\cleardoublepage
+%---------------------------------
+\setcounter{page}{1}
+
+\onehalfspacing 
+%\doublespacing  
+
+
+\chapter*{Wstęp}
+\label{chap:wstep}
+\input{wstep.tex}
+
+\chapter{Marianna Głąb-Gradzik-Maciąg}
+\label{chap:marianna_glab}
+\input{marianna_glab.tex}
+
+\chapter{Jan Głąb}
+\label{chap:jan_glab}
+\input{jan_glab.tex}
+
+\chapter{Stanisława Głąb-Karoń}
+\label{chap:stanislawa_glab}
+\input{stanislawa_glab.tex}
+
+\chapter{Józefa Głąb-Machura}
+\label{chap:jozefa_glab}
+\input{jozefa_glab.tex}
+
+\chapter{Bolesława Głąb-Kurek}
+\label{chap:boleslawa_glab}
+\input{boleslawa_glab.tex}
+
+\chapter{Franciszek Głąb}
+\label{chap:franciszek_glab}
+\input{franciszek_glab.tex}
+
+\chapter{Aniela Głąb}
+\label{chap:aniela_glab}
+\input{aniela_glab.tex}
+
+\chapter{Stanisław Głąb}
+\label{chap:stanislaw_glab}
+\input{stanislaw_glab.tex}
+
+\chapter{Przodkowie Walentego i Antoniny Głąbów}
+\label{chap:przodkowie}
+\input{przodkowie.tex}
+
+
+%----------- Spis treści i rysunków ---------
+\tableofcontents
+\listoffigures
+%---------------------------------
+
+\end {document}
