@@ -1,0 +1,10 @@
+*.log
+main.aux
+main.bbl
+main.blg
+main.lof
+main.pdf
+main.tcp
+main.toc
+main.tps
+zdjecia/Thumbs.db
